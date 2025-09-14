@@ -10,6 +10,8 @@ This app fetches contact data from the [JSONPlaceholder API](https://jsonplaceho
 No Create, Update, or Delete (CRUD) functionality is implemented — this is a read-only browsing app.
 
 ---
+
+
 ### Home Page
 Here is the main page showing the list of contacts:
 
@@ -18,35 +20,35 @@ Here is the main page showing the list of contacts:
 ---
 
 ## 📂 Folder Structure
-contacts-app/
-├── public/ # Public assets
-│ └── vite.svg # Default Vite logo
+📂 contacts-app
+├── 📂 public                  # Public assets
+│   └── favicon.ico            # App favicon or other public assets
 │
-├── src/ # Source code
-│ ├── assets/ # Images, icons, etc.
-│ │ └── react.svg
-│ │
-│ ├── components/ # React components
-│ │ ├── ContactCard.jsx
-│ │ ├── ContactList.jsx
-│ │ ├── ContactModal.jsx
-│ │ ├── LoadingSpinner.jsx
-│ │ └── SearchBar.jsx
-│ │
-│ ├── App.css # Global styles for App
-│ ├── App.jsx # Root component
-│ ├── index.css # Tailwind CSS and global styles
-│ └── main.jsx # Application entry point
+├── 📂 src                     # Source code
+│   ├── 📂 assets               # Images, icons, etc.
+│   │   └── react.svg
+│   │
+│   ├── 📂 components           # React components
+│   │   ├── ContactCard.jsx      # Individual contact card
+│   │   ├── ContactList.jsx      # List of contacts
+│   │   ├── ContactModal.jsx     # Contact detail modal
+│   │   ├── LoadingSpinner.jsx   # Loading spinner
+│   │   └── SearchBar.jsx        # Search bar for filtering contacts
+│   │
+│   ├── App.css                 # Global styles for App
+│   ├── App.jsx                 # Root component
+│   ├── index.css               # Tailwind CSS & global styles
+│   └── main.jsx                # Application entry point
 │
-├── .gitignore # Ignored files for Git
-├── eslint.config.js # ESLint configuration
-├── index.html # Main HTML template
-├── package.json # Project dependencies and scripts
-├── package-lock.json # Lock file for dependencies
-├── postcss.config.js # PostCSS configuration
-├── tailwind.config.js # Tailwind CSS configuration
-├── vite.config.js # Vite configuration
-└── README.md # Project documentation
+├── .gitignore                  # Ignored files for Git
+├── eslint.config.js            # ESLint configuration
+├── index.html                  # Main HTML template
+├── package.json                # Project dependencies & scripts
+├── package-lock.json           # Dependency lock file
+├── postcss.config.js           # PostCSS configuration
+├── tailwind.config.js          # Tailwind CSS configuration
+├── vite.config.js              # Vite configuration
+└── README.md                   # Project documentation
 
 
 
