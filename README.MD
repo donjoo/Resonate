@@ -47,7 +47,7 @@ cd contacts-app
     npm run dev
 
 
-    🎨 Features
+### 🎨 Features
 
 Responsive and mobile-first design
 
@@ -60,7 +60,7 @@ Smooth modal for viewing contact details
 Fast development experience with Vite
 
 
-📡 API Reference
+### 📡 API Reference
 
 We are using JSONPlaceholder
 
