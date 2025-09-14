@@ -34,7 +34,7 @@ Here is the main page showing the list of contacts:
 Follow these steps to run the project locally:
 
 ### 1️⃣ Clone the repository
-```bash
+
 git clone git@github.com:donjoo/Resonate.git 
 cd contacts-app
 
